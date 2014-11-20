@@ -1,0 +1,112 @@
+Jackal-p:
+    Item_Information:
+        Item_Name: "&lJackal-prototype"
+        Item_Lore: "吸血鬼だけが扱える銃を.|人間が持てるように改造されたもの"
+        Item_Type: 417
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Remove_Arrows_On_Impact: true
+        Delay_Between_Shots: 9
+        Recoil_Amount: 1.5
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 100
+        Projectile_Damage: 15
+        Bullet_Spread: 0.4
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENDERDRAGON_HIT-0.3-1-0,ANVIL_LAND-0.7-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.2
+    Reload:
+        Enable: true
+        Reload_Amount: 6
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 80
+        Sounds_Reloading: DOOR_OPEN-1-2-10,PISTON_RETRACT-0.1-2-34,DOOR_CLOSE-1-2-60,CHEST_CLOSE-1-2-70
+        Take_Ammo_As_Magazine: true
+    Firearm_Action:
+        Type: slide
+        Sound_Open: NOTE_STICKS-2-0-0,PISTON_RETRACT-2-2-2
+        Sound_Close: PISTON_EXTEND-2-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 4
+    Abilities:
+        Super_Effective: BLAZE-1.2,CAVE_SPIDER-1.2,CREEPER-1.2,ENDER_DRAGON-10,ENDERMAN-1.2,GHAST-1.2,GIANT-1.2,MAGMA_CUBE-1.2,PIG_ZOMBIE-2,SILVERFISH-1.2,SKELETON-2,SLIME-1.2,WITCH-1.2,WITHER-10,ZOMBIE-2
+        Reset_Hit_Cooldown: true
+        Knockback: -0.6
+        No_Vertical_Recoil: true
+      
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 2
+        Zoom_Bullet_Spread: 0.19
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-2-2-0       
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-2-2-0
+Jackal:
+    Item_Information:
+        Item_Name: "&lJackal"
+        Item_Lore: "パーフェクトだウォルター！"
+        Item_Type: 417
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Remove_Arrows_On_Impact: true
+        Delay_Between_Shots: 6
+        Recoil_Amount: 1.5
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 200
+        Projectile_Damage: 25
+        Bullet_Spread: 0.2
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ENDERDRAGON_HIT-0.1-1-0,ANVIL_LAND-0.5-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.15
+    Reload:
+        Enable: true
+        Reload_Amount: 6
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 16
+        Sounds_Reloading: DOOR_OPEN-1-2-2,PISTON_RETRACT-0.1-2-7,DOOR_CLOSE-1-2-12,CHEST_CLOSE-1-2-14
+        Take_Ammo_As_Magazine: true
+    Firearm_Action:
+        Type: slide
+        Sound_Open: NOTE_STICKS-2-0-0,PISTON_RETRACT-2-2-2
+        Sound_Close: PISTON_EXTEND-2-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 10
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 999
+        Chance: 1
+    Abilities:
+        Super_Effective: BLAZE-2,CAVE_SPIDER-2,CREEPER-2,ENDERMAN-2,GHAST-2,GIANT-2,MAGMA_CUBE-2,PIG_ZOMBIE-4,SILVERFISH-2,SKELETON-4,SLIME-2,WITCH-2,ZOMBIE-4
+        Reset_Hit_Cooldown: true
+        Knockback: -0.9
+        No_Vertical_Recoil: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 2
+        Zoom_Bullet_Spread: 0.1
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-2-2-0       
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-2-2-0
+
+
+
+
+
